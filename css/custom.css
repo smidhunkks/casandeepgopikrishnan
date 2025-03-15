@@ -164,3 +164,13 @@ button {
   width: 6rem;
   height: auto;
 }
+.service-card{
+ border-radius: 18px !important;
+padding:30px 25px !important;
+}
+.service-card h4{
+  font-weight: bold;
+}
+.service-card p{
+  margin-top: .5rem;
+}
