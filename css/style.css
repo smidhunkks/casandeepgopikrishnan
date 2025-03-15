@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+.fnt {
+    font-family: 'Open Sans', sans-serif;
+    /* color: rgb(24, 24, 24);*/
+    font-size: 1.3rem;
+    opacity: .9;
+}
+
+.cover {
+    height: 100%;
+    min-height: 100%;
+}
+
+.bgdiv {
+    background-image: url('../images/cover1.webp');
+    height: 632px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 30%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+}
+
+.stick {
+    background-color: white;
+    transition: 1s;
+    box-shadow: 5px 5px 20px 0px #6b6a6a38;
+}
+
+.clr {
+    color: white;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+.entho {
+    height: 1000px;
+    background-color: whitesmoke;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    margin: 6px 0;
+    transition: .8s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+    transition: .8s;
+}
+
+.change .bar2 {
+    opacity: 0;
+    transition: .8s;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+    transition: .8s;
+}
+
+.brandnm {
+    /* color: black;*/
+    opacity: .9;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Kanit', sans-serif;
+}
+
+.brandnm:hover {
+    color: black;
+}
+
+.avtr {
+    width: 105px;
+    height: 105px;
+    border: solid 2px;
+    animation: bord;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.Name {
+    color: white;
+    font-weight: bold;
+}
+
+.namediv {
+    padding-top: 11rem;
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+}
+
+.details {
+    font-size: 25px;
+    height: 37.5px;
+    opacity: .85;
+}
+
+.dnarrow {
+    width: 85px;
+    height: 50px;
+    animation: dmove;
+    transform: translateY(0px);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes dmove {
+    from {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.scrl {
+    margin-top: auto;
+    position: inherit;
+}
+
+.btclr {
+    background-color: white;
+}
+
+a:hover {
+    color: white !important;
+}
+
+.blk:hover {
+    color: black !important;
+}
+
+.about-fnt {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    opacity: .9;
+}
+
+.about-cnt {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.35rem;
+    opacity: .9;
+}
+
+.thick {
+    font-weight: bold;
+    opacity: .9;
+}
+
+.line {
+    background: rgba(135, 135, 135, 0.5);
+    width: 100px;
+    height: 1px;
+    margin: 30px auto;
+}
+
+.cardhead {
+    padding-top: 10px;
+    width: 50px;
+    height: 50px;
+    opacity: .7;
+}
+
+#myHeader {
+    z-index: 2;
+}
+
+.cardheadweb {
+    width: 10px;
+    height: 10px;
+}
+
+.footer-text {
+    font-size: .8rem;
+    opacity: .4;
+}
+
+.fadein {
+    animation-name: myanim;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    opacity: 1;
+}
+
+@keyframes myanim {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.cm-soon {
+    font-size: 20px;
+    animation: pop;
+    margin-top: auto;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pop {
+    from {
+        font-size: 25px;
+    }
+    50% {
+        font-size: 30px;
+    }
+    to {
+        font-size: 25px;
+    }
+}
+
+.hgt {
+    height: 250px;
+}
+
+.footerico {
+    filter: invert();
+    width: 30px;
+    height: 30px;
+    opacity: .8;
+    color: black;
+    animation: shine;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shine {
+    from {
+        opacity: .5
+    }
+    50% {
+        opacity: .8;
+    }
+    to {
+        opacity: .5
+    }
+}
+
+.progresshgt {
+    height: .5rem !important;
+}
+
+.pgfwt {
+    font-weight: 600;
+}
+
+.pgfwtrt {
+    font-weight: 600;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.bartext {
+    float: right;
+}
+
+.rgskill {
+    transform: scaleX(-1);
+}
+
+.wdt {
+    transition: 1s !important;
+    width: 0%;
+}
+
+.cdht {
+    height: 222px;
+}
+
+.ftr-fnt {
+    color: white;
+    opacity: .7;
+}
+
+
+@keyframes navItemFade{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-50px);
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+}
