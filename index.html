@@ -35,13 +35,17 @@
 
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
+      <div class="container-fluid">
         <!-- Logo -->
         <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="img/calogo.png" alt="Logo" height="50" />
+          <img src="img/calogo.jpeg" alt="Logo" height="50px" />
           <div class="ms-2 d-flex flex-column">
-            <span class="fw-bold">Sandeep Gopikrishnan & Associates</span>
-            <span class="text-muted">Chartered Accountants</span>
+            <span class="d-none d-md-block fs- fw-bold"
+              >Sandeep Gopikrishnan & Associates</span
+            >
+            <span class="d-none d-md-block text-muted fs-6"
+              >Chartered Accountants</span
+            >
           </div>
         </a>
 
@@ -59,8 +63,12 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -128,10 +136,8 @@
       </div>
     </div>
     <!-- our services -->
-    <div class="container my-5 py-2">
-      <h2 class="text-center font-weight-bold my-5">
-        Our Services
-      </h2>
+    <div class="container my-5 py-2" id="services">
+      <h2 class="text-center font-weight-bold my-5">Our Services</h2>
       <div class="row">
         <div
           data-aos="fade-up"
@@ -185,65 +191,65 @@
           </div>
         </div>
         <div
-        data-aos="fade-up"
-        data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos-once="true"
-        class="col-md-4 text-center"
-      >
-        <div class="service-card card h-100 card-body">
-          <div class="card-corner"></div>
-          <h4 class="card-title">Management consultancy services</h4>
-          <p class="card-text text-start">
-            We provide expert management consultancy services to help
-            businesses optimize operations, enhance financial efficiency, and
-            ensure regulatory compliance. Our services include:
-          </p>
-          <ul class="text-start">
-            <li>
-              Management Advisory Services – Expert insights to improve
-              decision-making and operational efficiency.
-            </li>
-            <li>
-              Budgeting and Financial Planning Advisory – Strategic financial
-              planning to achieve business goals.
-            </li>
-            <li>
-              Setting up Standard Operating Procedures (SOPs) & System Flow
-              Charts
-            </li>
-          </ul>
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          class="col-md-4 text-center"
+        >
+          <div class="service-card card h-100 card-body">
+            <div class="card-corner"></div>
+            <h4 class="card-title">Management consultancy services</h4>
+            <p class="card-text text-start">
+              We provide expert management consultancy services to help
+              businesses optimize operations, enhance financial efficiency, and
+              ensure regulatory compliance. Our services include:
+            </p>
+            <ul class="text-start">
+              <li>
+                Management Advisory Services – Expert insights to improve
+                decision-making and operational efficiency.
+              </li>
+              <li>
+                Budgeting and Financial Planning Advisory – Strategic financial
+                planning to achieve business goals.
+              </li>
+              <li>
+                Setting up Standard Operating Procedures (SOPs) & System Flow
+                Charts
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
       </div>
       <!-- row two -->
       <div class="row justify-content-center mt-4">
         <div
-        data-aos="fade-up"
-        data-aos-delay="0"
-        data-aos-duration="1000"
-        data-aos-once="true"
-        class="col-md-4 text-center"
-      >
-        <div class="service-card card h-100 card-body">
-          <div class="card-corner"></div>
-          <h4 class="card-title">Company Law Compliance</h4>
-          <p class="card-text text-star">
-            Stay compliant with corporate laws and avoid hefty fines. Our
-            services include:
-          </p>
-          <ul class="text-start">
-            <li>Company Incorporation</li>
-            <li>
-              Filling of forms and Returns with Ministry of Corporate Affairs
-              (MCA)
-            </li>
-            <li>Corporate Law Advisory</li>
-            <li>Other Corporate Filings and Compliances</li>
-          </ul>
+          data-aos="fade-up"
+          data-aos-delay="0"
+          data-aos-duration="1000"
+          data-aos-once="true"
+          class="col-md-4 text-center"
+        >
+          <div class="service-card card h-100 card-body">
+            <div class="card-corner"></div>
+            <h4 class="card-title">Company Law Compliance</h4>
+            <p class="card-text text-star">
+              Stay compliant with corporate laws and avoid hefty fines. Our
+              services include:
+            </p>
+            <ul class="text-start">
+              <li>Company Incorporation</li>
+              <li>
+                Filling of forms and Returns with Ministry of Corporate Affairs
+                (MCA)
+              </li>
+              <li>Corporate Law Advisory</li>
+              <li>Other Corporate Filings and Compliances</li>
+            </ul>
+          </div>
         </div>
-      </div>
-        
+
         <div
           data-aos="fade-up"
           data-aos-delay="0"
@@ -255,13 +261,12 @@
             <div class="card-corner"></div>
             <h4 class="card-title">Other Services</h4>
             <p class="card-text text-start">
-              We provide a range of financial and business support services, including:
+              We provide a range of financial and business support services,
+              including:
             </p>
             <ul class="text-start">
               <li>Accounts and Book Keeping Services</li>
-              <li>
-                Preparation of Project Reports
-              </li>
+              <li>Preparation of Project Reports</li>
               <li>Designing and implementing customised ERP systems</li>
               <li>Digital Signature</li>
               <li>Trademark, MSME, FSSAI, Hallmark Registration</li>
@@ -269,14 +274,9 @@
             </ul>
           </div>
         </div>
-       
-      </div>
-
-    
-     
-      
       </div>
     </div>
+
     <!-- feature (skew background) -->
     <!-- <div class="jumbotron jumbotron-fluid feature" id="feature-first">
       <div class="container my-5">
@@ -452,18 +452,22 @@
       id="contact"
       style="background-image: url(img/contact-bk.jpg)"
     >
-      <div class="container my-5">
+      <div class="container my-5" id="contact">
         <div class="row justify-content-between">
-          <p class="text-white">Let us take care of your financial and compliance needs while you focus on growing
-            your business!</p>
+          <p class="text-white">
+            Let us take care of your financial and compliance needs while you
+            focus on growing your business!
+          </p>
           <div class="col-md-6 text-white">
             <h2 class="font-weight-bold">Contact Us</h2>
-            
+
             <ul class="list-unstyled">
               <li>Email : sgk.sandeepgkrishnan@gmail.com</li>
               <li>Phone : 8590353672, 8547000175</li>
-              <li>Address : XXII/196, KMK Junction, Republic Road, N Paravur,
-                Ernakulam, Kerala, 683513.</li>
+              <li>
+                Address : XXII/196, KMK Junction, Republic Road, N Paravur,
+                Ernakulam, Kerala, 683513.
+              </li>
             </ul>
           </div>
           <!-- <div class="col-md-6">
@@ -497,14 +501,15 @@
     <!-- copyright -->
     <div class="jumbotron jumbotron-fluid" id="copyright">
       <div class="container">
-        <div class="row justify-content-between">
+        <div class="row justify-content-center">
           <div
-            class="col-md-6 text-white align-self-center text-center text-md-left my-2"
+            class="col-md-6 text-white align-self-center text-center my-2"
           >
-            Copyright © 2018 Chen, Yi-Ya.
+            All Rights Reserved Sandeep Gopikrishnan & Associates
           </div>
-          <div
-            class="col-md-6 align-self-center text-center text-md-right my-2"
+          <!-- <div
+
+            class="d-none col-md-6 align-self-center text-center text-md-right my-2"
             id="social-media"
           >
             <a href="#" class="d-inline-block text-center ml-2">
@@ -519,7 +524,7 @@
             <a href="#" class="d-inline-block text-center ml-2">
               <i class="fa fa-linkedin" aria-hidden="true"></i>
             </a>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
