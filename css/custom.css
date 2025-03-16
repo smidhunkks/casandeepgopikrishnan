@@ -174,3 +174,10 @@ padding:30px 25px !important;
 .service-card p{
   margin-top: .5rem;
 }
+.otherlinks{
+  height:5rem;
+  margin: 1px;
+}
+.otherlinks img{
+max-height: 4.8rem;
+}
